@@ -7,7 +7,8 @@ export function HomePage() {
     <div className="space-y-12">
       {/* Hero Section */}
       <div className="text-center space-y-4">
-        <Shield className="h-16 w-16 text-indigo-600 mx-auto" />
+      <Shield className="h-16 w-16 mx-auto" style={{ color: '#c5bfda' }} />
+
         <h1 className="text-4xl font-bold text-gray-900">
           Geo-Smart Women Safety Companion
         </h1>
@@ -22,7 +23,7 @@ export function HomePage() {
           to="/map"
           className="flex items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
         >
-          <Map className="h-8 w-8 text-indigo-600 mr-4" />
+          <Map className="h-8 w-8 mr-4" style={{ color: '#c5bfda' }} />
           <div>
             <h3 className="text-lg font-semibold text-gray-900">Safety Map</h3>
             <p className="text-gray-600">View safety scores and incident reports in your area</p>
@@ -44,7 +45,7 @@ export function HomePage() {
       {/* Features Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <Users className="h-8 w-8 text-indigo-600 mb-4" />
+          <Users className="h-8 w-8 mb-4" style={{ color: '#c5bfda' }} />
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Community Support</h3>
           <p className="text-gray-600">
             Join a network of users sharing real-time safety updates and supporting each other.
@@ -52,7 +53,7 @@ export function HomePage() {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <Bell className="h-8 w-8 text-indigo-600 mb-4" />
+          <Bell className="h-8 w-8 mb-4" style={{ color: '#c5bfda' }}/>
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Real-time Alerts</h3>
           <p className="text-gray-600">
             Receive instant notifications about safety concerns in your vicinity.
@@ -60,7 +61,7 @@ export function HomePage() {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <Phone className="h-8 w-8 text-indigo-600 mb-4" />
+          <Phone className="h-8 w-8  mb-4" style={{ color: '#c5bfda' }}/>
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Emergency SOS</h3>
           <p className="text-gray-600">
             Quick access to emergency contacts and services when you need them most.
