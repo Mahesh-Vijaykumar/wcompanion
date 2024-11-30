@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <header
-      style={{ backgroundColor: '#c5bfda', color: '#FFFFFF' }} // Pink background, white text
+      style={{ backgroundColor: '#da8581', color: '#FFFFFF' }} // Pink background, white text
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">

@@ -7,7 +7,7 @@ export function HomePage() {
     <div className="space-y-12">
       {/* Hero Section */}
       <div className="text-center space-y-4">
-      <Shield className="h-16 w-16 mx-auto" style={{ color: '#c5bfda' }} />
+      <Shield className="h-16 w-16 mx-auto" style={{ color: '#9aaad2' }} />
 
         <h1 className="text-4xl font-bold text-gray-900">
           Geo-Smart Women Safety Companion

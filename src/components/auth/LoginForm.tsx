@@ -58,7 +58,7 @@ export function LoginForm() {
                 name="email"
                 type="email"
                 required
-                className="appearance-none block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-teal-500 focus:border-teal-500"
+                className="appearance-none block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 text-gray-900 dark:text-gray-900 focus:outline-none focus:ring-teal-500 focus:border-teal-500"
                 placeholder="you@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
